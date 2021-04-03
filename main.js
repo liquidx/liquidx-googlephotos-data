@@ -78,7 +78,7 @@ const main = () => {
   };
 
   program
-    .command('auth <authCode>')
+    .command('auth [authCode]')
     .description('Apply auth code')
     .action((authCode) => {
       getClient(authCode).then((response) => {
