@@ -1,14 +1,10 @@
 {
   "name": "liquidx-googlephotos-data",
   "version": "1.0.0",
-  "description": "",
+  "description": "Command line tool for accessing Google Photos API.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Alastair Tse <alastair@liquidx.net>",
+  "license": "MIT",
   "dependencies": {
     "commander": "^7.2.0",
     "googleapis": "^70.0.0",
